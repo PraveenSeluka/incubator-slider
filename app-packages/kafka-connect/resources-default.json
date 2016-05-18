@@ -1,0 +1,21 @@
+{
+  "schema" : "http://example.org/specification/v2.0.0",
+  "metadata" : {
+  },
+  "global" : {
+    "yarn.container.failure.threshold":"0",
+    "yarn.container.failure.window.hours":"1"
+  },
+  "components" : {
+    "ConnectD" : {
+      "yarn.container.failure.threshold":0,
+      "yarn.role.priority" : "1",
+      "yarn.component.instances" : "1",
+      "yarn.memory" : "2000",
+      "yarn.vcores" : "1",
+      "yarn.component.placement.policy":"1"
+    },
+    "slider-appmaster" : {
+    }
+  }
+}
