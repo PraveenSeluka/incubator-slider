@@ -61,7 +61,7 @@
         <packages>
           <package>
             <type>tarball</type>
-            <name>files/kf.tar</name>
+            <name>files/dummy.tar</name>
           </package>
         </packages>
       </osSpecific>

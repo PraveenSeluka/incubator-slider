@@ -18,7 +18,6 @@ import sys
 import os
 import inspect
 import pprint
-import util
 from resource_management import *
 
 logger = logging.getLogger()
